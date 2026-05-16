@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.Python
+*.egg-info/
+
+# Environment
+.env
+
+retail-eda-venv
+.venv/
+venv/
+
+# Data — never commit raw or processed data files
+data/*.csv
+data/*.parquet
+reports/*.png
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+
+# Reports — generated at runtime
+reports/*.txt
+reports/*.csv
